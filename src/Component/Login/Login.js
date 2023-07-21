@@ -7,7 +7,7 @@ const postFormRequest = { emailId: "", password: "" };
 const Login = () => {
   const navigate = useNavigate();
   const [loginData, setLoginData] = useState(postFormRequest);
-
+//This is a login handler
   const handleChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
